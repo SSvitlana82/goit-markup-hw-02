@@ -16,10 +16,14 @@ body {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase; text-decoration: none;
     }
 
 .header-logo-studio {color: #2E2F42;}
+
+ul {
+    list-style-type: none;
+}
 
 .header-menu-list {font-size: 16px;
     font-weight: 500;
@@ -28,7 +32,7 @@ body {
 
 .header-menu-item {}
 
-.header-menu-link {color: #2E2F42;}
+.header-menu-link {color: #2E2F42; text-decoration: none;}
 .header-menu-link:hover {color: #404BBF;}
 .header-menu-link:focus {
     color: #404BBF;
@@ -42,7 +46,7 @@ body {
 
 .header-address-link {color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em; text-decoration: none;}
 
 .header-address-link:hover {color: #404BBF;}
 .header-address-link:focus {color: #404BBF;}
